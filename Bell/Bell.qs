@@ -29,11 +29,11 @@
                     H(qubits[0]);
                     CNOT(qubits[0],qubits[1]);
                     let res = M (qubits[0]);
-
-					if(M(qubits[1]) == res){
-						set agree = agree + 1;
-					}
-
+					
+					//if(M(qubits[1]) == res){
+						//set agree = agree + 1;
+					//}
+					
 
                     // Count the number of ones we saw:
                     if (res == One)
